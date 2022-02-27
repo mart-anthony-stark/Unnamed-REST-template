@@ -1,5 +1,5 @@
+const UserController = require("../controllers/user.controller");
+
 module.exports = ({ GET, POST, PUT, PATCH, DELETE }) => {
-  GET("/", (request, response) => {
-    response.send("User");
-  });
+  GET("/", UserController.getAllUsers);
 };
