@@ -1,4 +1,6 @@
 const unnamed = require("unnamed-js");
+const dotenv = require("dotenv");
+dotenv.config({});
 
 const server = unnamed(
   {
