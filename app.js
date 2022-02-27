@@ -9,6 +9,8 @@ const server = unnamed(
 
 const { GET, POST, PUT, PATCH, DELETE } = server;
 
+server.combineRouters(require("./routers"));
+
 GET("/", (request, response) => {
   response.send("Hello");
 });
