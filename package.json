@@ -1,0 +1,19 @@
+{
+  "name": "unnamed-rest-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "unnamed-js": "^2.3.1"
+  }
+}
